@@ -1,0 +1,7 @@
+.search-input {
+  margin: 20px 10px;
+  max-width: 420px;
+}
+.search-input::placeholder {
+  font-family: Helvetica, FontAwesome, sans-serif;
+}

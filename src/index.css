@@ -1,13 +1,43 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type='text'],
+input[type='number'],
+input[type='password'],
+input[type='email'],
+input[type='date'],
+select {
+  width: auto;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #bfbdbd;
+  background-color: #f9fafb;
+  line-height: 20px;
+  font-weight: 400;
+}
+input[type='date'] {
+  width: 100%;
+}
+button {
+  padding: 10px 15px;
+  border-width: 1px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button[disabled] {
+  cursor: not-allowed;
+}
+select {
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bfbdbd;
 }

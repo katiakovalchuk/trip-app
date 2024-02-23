@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  cursor: pointer;
+  margin: 10px;
+  transition: all 500ms ease-out;
+}
+.card-data {
+  padding: 15px;
+  line-height: 1.5;
+  border: 1px solid #dedede;
+  border-top: none;
+}
